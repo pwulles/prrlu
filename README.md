@@ -1,16 +1,18 @@
 # PRRLU
 
-Partial Rank-Revealing LU (PRRLU) decomposition for matrices stored in the  
-[`mdarray`](https://crates.io/crates/mdarray) ecosystem.
+Partial Rank-Revealing LU (PRRLU) decomposition for matrices stored in
+the [`mdarray`](https://crates.io/crates/mdarray) ecosystem.
 
-This crate provides a stable and efficient implementation of PRRLU, relying on  
-the backend traits from [`mdarray_linalg`](https://crates.io/crates/mdarray_linalg).  
-Two backends are available out of the box: a hand-written **Naive** backend and a  
-high-performance **Blas** backend.
+This crate provides a stable and efficient implementation of PRRLU,
+relying on the backend traits from
+[`mdarray_linalg`](https://crates.io/crates/mdarray_linalg). Two
+backends are available out of the box: a hand-written **Naive**
+backend and a high-performance **Blas** backend.
 
-With BLAS, the algorithm achieves significantly better performance than the  
-naive loop-based implementation, while still remaining fully compatible with any  
-custom backend implementing the required `Outer` and `Argmax` traits.
+With BLAS, the algorithm achieves significantly better performance
+than the naive loop-based implementation, while still remaining fully
+compatible with any custom backend implementing the required `Outer`
+and `Argmax` traits.
 
 ---
 
