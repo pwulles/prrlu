@@ -1,0 +1,14 @@
+[package]
+name = "prrlu"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+approx = "0.5.1"
+mdarray = "0.7.1"
+mdarray-linalg = {git = "https://github.com/grothesque/mdarray-linalg.git"}
+num-complex = "0.4.6"
+num-traits = "0.2.19"
+
+[dev-dependencies]
+mdarray-linalg-blas = {git = "https://github.com/grothesque/mdarray-linalg.git"}
