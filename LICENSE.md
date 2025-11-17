@@ -1,8 +1,8 @@
 # License
 
-The mdarray-linalg project (including all subcrates, i.e. all files in this
-code repository) is dual licensed under the terms of the Apache License,
-Version 2.0, and the MIT License. You may obtain copies of the two licenses at
+The prrlu project, i.e. all files in this code repository, is dual
+licensed under the terms of the Apache License, Version 2.0, and the
+MIT License. You may obtain copies of the two licenses at
 
 * https://www.apache.org/licenses/LICENSE-2.0 and
 * https://opensource.org/licenses/MIT, respectively.
